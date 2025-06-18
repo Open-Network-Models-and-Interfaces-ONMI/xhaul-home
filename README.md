@@ -13,7 +13,7 @@ The following types of extensions are distinguished:
 ## Network Layers
 
 ### Air
-* [airInterface](https://github.com/openBackhaul/airInterface) : Physical layer of the microwave radio interface
+- [airInterface](https://github.com/openBackhaul/airInterface) : Physical layer of the microwave radio interface
 
 ### EthernetContainer
 - [ethernetContainer](https://github.com/openBackhaul/ethernetContainer) : Interface for sending and receiving frames
@@ -21,10 +21,10 @@ The following types of extensions are distinguished:
 - [ethernetContainerFc](https://github.com/openBackhaul/ethernetContainerFc) : Actual layer 1 forwarding of frames
 
 ### HybridMwStructure
-* [hybridMwStructure](https://github.com/openBackhaul/hybridMwStructure) : Structuring of a microwave radio interface into multiple TDM and a single Ethernet segment
+- [hybridMwStructure](https://github.com/openBackhaul/hybridMwStructure) : Structuring of a microwave radio interface into multiple TDM and a single Ethernet segment
 
 ### IP
-- [ipInterface](https://github.com/openBackhaul/ipInterface) : IPv4 interface according to IETF RFC 791
+- [ipInterface](https://github.com/openBackhaul/ipInterface) : Basic IPv4 interface according to IETF RFC 791
 
 ### MAC
 - [macInterface](https://github.com/openBackhaul/macInterface) : Ethernet MAC interface according to IEEE 802.1
@@ -51,10 +51,12 @@ The following types of extensions are distinguished:
 ## Profiles
 - [coChannelProfile](https://github.com/openBackhaul/coChannelProfile) : Groups of microwave radio interfaces, which are using the same frequency channel
 - [l3vpnProfile](https://github.com/openBackhaul/l3vpnProfile) : Layer 3 Virtual Private Networks
+- [layer1AggregationProfile](https://github.com/openBackhaul//layer1AggregationProfile) : RPCs supporting the management of aggregation configurations  
 - [policingProfile](https://github.com/openBackhaul/policingProfile) : Regulation of the flow by rates and burst sizes
 - [qosProfile](https://github.com/openBackhaul/qosProfile) : Quality of Service based on 802.1p, MPLS Exp and IP DSCP
 - [schedulerProfile](https://github.com/openBackhaul/schedulerProfile) : Scheduler for sending frames
 - [wredProfile](https://github.com/openBackhaul/wredProfile) : WRED (Weighted Random Early Detection)
+- [wredTemplateProfile](https://github.com/openBackhaul/wredTemplateProfile) : Combinations of WRED, transport protocol and drop precedence
 
 ## Core
 - [backupAndRestore](https://github.com/openBackhaul/backupAndRestore) : Information model and RPCs for managing backup and restore on the device
